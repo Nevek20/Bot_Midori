@@ -66,7 +66,7 @@ async def soma(ctx:commands.Context, a:int, b:int):
 @bot.command()
 async def kill(ctx, member:discord.Member): 
     """Mata alguem"""
-    await ctx.send(f"O fodido do(a) {member.mention} MORREU!!! 💀💀💀")
+    await ctx.send(f"O {member.mention} MORREU!!! 💀💀💀")
 
 @bot.command()
 async def d6(ctx): 
@@ -77,7 +77,7 @@ async def d6(ctx):
 @bot.command()
 async def alexpimenta(ctx):
     """Conta quantas vezes o alexpimenta foi chamado"""
-    await ctx.send(f"o viado do(a) alexpimenta foi mencionado {counter['count']} vezes")
+    await ctx.send(f"o alexpimenta foi mencionado {counter['count']} vezes")
 
 @bot.command()
 async def sazon(ctx:commands.Context):
@@ -97,7 +97,7 @@ async def sazon(ctx:commands.Context):
 async def tatikawa(ctx:commands.Context):
     """TATIKAWAAAAAAAA"""
     embed2 = discord.Embed(
-        title="Motivo: estuprou viados no beco",
+        title="Motivo: mira ruim no PUBG",
         description = "Recompensa: 20 mil dólares"
     )
 
